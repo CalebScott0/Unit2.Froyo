@@ -6,7 +6,6 @@ const userInputString = prompt(
 
 const promptArray = userInputString.split(",");
 
-
 function displayOrder(orderArray) {
   const userOrder = {};
   for (let i = 0; i < orderArray.length; i++) {
@@ -19,4 +18,4 @@ function displayOrder(orderArray) {
   return userOrder;
 }
 
-
+console.log(displayOrder(promptArray));
