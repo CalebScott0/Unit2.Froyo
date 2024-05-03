@@ -1,6 +1,6 @@
 // Prompt user for froyo order
 const userInputString = prompt(
-  "Please enter your foryo order separated by commas:",
+  "Please enter your froyo order separated by commas:",
   "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
 );
 
